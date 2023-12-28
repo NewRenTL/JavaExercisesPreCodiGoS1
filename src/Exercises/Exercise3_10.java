@@ -22,22 +22,7 @@ public class Exercise3_10 {
         /* TopMin + (int)(Math.random() * ((TopMax-TopMin)+1) */
         int random1 = 0 + (int)(Math.random() * (((n-1)-0)+1));
         int cont = 0;
-        /*
-        for (int i = random1;i < n;i++)
-        {
-            if (myArray[i] <= t && t > 0)
-            {
-                System.out.println("Book read number "+i+" : timeBook["+myArray[i]+"]");
-                System.out.println("My time is : "+t);
-                t = t-myArray[i];
-                cont++;
-            }
-            else
-            {
-                break;
-            }
-        }
-        */
+        //Code T
         int i = random1;
         while (true)
         {
@@ -59,6 +44,25 @@ public class Exercise3_10 {
             }
         }
         System.out.println("The number books read is:"+cont);
+
+
+
+         /* T
+        for (int i = random1;i < n;i++)
+        {
+            if (myArray[i] <= t && t > 0)
+            {
+                System.out.println("Book read number "+i+" : timeBook["+myArray[i]+"]");
+                System.out.println("My time is : "+t);
+                t = t-myArray[i];
+                cont++;
+            }
+            else
+            {
+                break;
+            }
+        }
+        */
     }
 }
 
